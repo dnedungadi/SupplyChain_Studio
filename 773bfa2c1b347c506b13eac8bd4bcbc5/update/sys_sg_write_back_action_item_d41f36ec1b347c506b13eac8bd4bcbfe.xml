@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script/>
+        <name>Delete (NPD_Case)</name>
+        <parameter_screen/>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-14 09:30:45</sys_created_on>
+        <sys_id>d41f36ec1b347c506b13eac8bd4bcbfe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Delete (NPD_Case)</sys_name>
+        <sys_package display_value="New Product Introduction" source="x_snc_new_prod_int">773bfa2c1b347c506b13eac8bd4bcbc5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Product Introduction">773bfa2c1b347c506b13eac8bd4bcbc5</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_d41f36ec1b347c506b13eac8bd4bcbfe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-14 09:30:45</sys_updated_on>
+        <table>x_snc_new_prod_int_npd_case</table>
+        <template/>
+        <type>delete</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+        <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=d41f36ec1b347c506b13eac8bd4bcbfe"/>
+</record_update>

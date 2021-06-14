@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream">
+    <sys_sg_item_stream action="INSERT_OR_UPDATE">
+        <data_item display_value="New Product Introduction NPD_Case">c41ff2ec1b347c506b13eac8bd4bcb26</data_item>
+        <interleaved_field/>
+        <name>NPD_Case Item Stream</name>
+        <sys_class_name>sys_sg_item_stream</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-14 09:30:45</sys_created_on>
+        <sys_id>941f36ec1b347c506b13eac8bd4bcbfb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NPD_Case Item Stream</sys_name>
+        <sys_package display_value="New Product Introduction" source="x_snc_new_prod_int">773bfa2c1b347c506b13eac8bd4bcbc5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Product Introduction">773bfa2c1b347c506b13eac8bd4bcbc5</sys_scope>
+        <sys_update_name>sys_sg_item_stream_941f36ec1b347c506b13eac8bd4bcbfb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-14 09:30:45</sys_updated_on>
+        <table/>
+    </sys_sg_item_stream>
+</record_update>

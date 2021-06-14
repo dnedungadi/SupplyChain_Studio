@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sn_customerservice_case" label="NPD_Case" max_length="40" name="x_snc_new_prod_int_npd_case" type="collection">
+        <element label="Forecast Volume" max_length="40" name="forecast_volume" type="integer"/>
+        <element label="GSOP" max_length="40" name="gsop" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Ingredients" max_length="800" name="ingredients" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="marketing_plan_1" label="Marketing &amp; Promo Plan" max_length="40" name="marketing_promo_plan" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Marketing Plan 1" value="marketing_plan_1"/>
+                <element inactive_on_update="false" label="Marketing Plan 2" value="marketing_plan_2"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="50" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="extra_small" label="Pack Size" max_length="40" name="pack_size" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Extra Large" value="extra_large"/>
+                <element inactive_on_update="false" label="Extra Small" value="extra_small"/>
+                <element inactive_on_update="false" label="Large" value="large"/>
+                <element inactive_on_update="false" label="Medium" value="medium"/>
+                <element inactive_on_update="false" label="Small" value="small"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="category_1" label="Product Category" max_length="40" name="product_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Category 1" value="category_1"/>
+                <element inactive_on_update="false" label="Category 2" value="category_2"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="food" label="Product Family" max_length="40" name="product_family" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Food" value="food"/>
+                <element inactive_on_update="false" label="Non-Food" value="non_food"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Product Name" max_length="100" name="product_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Product Withdrawal date" max_length="40" name="product_withdrawal_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="on_line" label="Selling Channel" max_length="40" name="selling_channel" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="On-line" value="on_line"/>
+                <element inactive_on_update="false" label="On-line and Retail" value="on_line_and_retail"/>
+                <element inactive_on_update="false" label="Retail" value="retail"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="sourcing_strategy_1" label="Sourcing Strategy" max_length="40" name="sourcing_strategy" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Sourcing Strategy 1" value="sourcing_strategy_1"/>
+                <element inactive_on_update="false" label="Sourcing Strategy 2" value="sourcing_strategy_2"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Supplier Contact Name" max_length="32" name="supplier_contact_name" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Supplier Name" max_length="32" name="supplier_name" reference="customer_account" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Target Introduction Date" max_length="40" name="target_introduction_date" type="glide_date"/>
+        <element display="true" label="Weight" max_length="15" name="weight" type="decimal"/>
+    </element>
+</database>

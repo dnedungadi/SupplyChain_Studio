@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="selling_channel" table="x_snc_new_prod_int_npd_case" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>selling_channel</element>
+            <name>x_snc_new_prod_int_npd_case</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-14 09:29:53</sys_created_on>
+            <sys_id>afde32ec1b347c506b13eac8bd4bcb40</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>selling_channel</sys_name>
+            <sys_package display_value="New Product Introduction" source="x_snc_new_prod_int">773bfa2c1b347c506b13eac8bd4bcbc5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="New Product Introduction">773bfa2c1b347c506b13eac8bd4bcbc5</sys_scope>
+            <sys_update_name>sys_choice_x_snc_new_prod_int_npd_case_selling_channel</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-14 09:29:53</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>selling_channel</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>On-line</label>
+            <language>en</language>
+            <name>x_snc_new_prod_int_npd_case</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-14 09:29:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>63de32ec1b347c506b13eac8bd4bcb40</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-14 09:29:53</sys_updated_on>
+            <value>on_line</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>selling_channel</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>On-line and Retail</label>
+            <language>en</language>
+            <name>x_snc_new_prod_int_npd_case</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-14 09:29:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>efde32ec1b347c506b13eac8bd4bcb53</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-14 09:29:53</sys_updated_on>
+            <value>on_line_and_retail</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>selling_channel</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Retail</label>
+            <language>en</language>
+            <name>x_snc_new_prod_int_npd_case</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-14 09:29:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>27de32ec1b347c506b13eac8bd4bcb5a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-14 09:29:53</sys_updated_on>
+            <value>retail</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
